@@ -8,8 +8,8 @@ engineer on computer architecture + memory subsystem
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am interested in computer technology and any interesting games, such as No limit-hold'em.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[57318505@qq.com](mailto:57318505@qq.com)
