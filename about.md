@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+engineer on computer architecture + memory subsystem
 
 ### More Information
 
