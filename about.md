@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-本人专注于计算系体系结构 存储子系统 Noc(net work on chip)的验证
+本人专注于计算系体系结构 存储子系统 以及Noc(net work on chip)的验证
 
 ### More Information
 
