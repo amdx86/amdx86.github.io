@@ -11,6 +11,8 @@ title: Markdown Style Guide
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
 H1 默认被占用了
+第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
+第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。一共只有1~6级标题，1级标题字体最大
 ## Header 2 (H1 is reserved for post titles)##
 
 ### Header 3
@@ -23,21 +25,27 @@ An image, located within /images
 
 ![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
 
+在文字开头添加(*, +, and -)实现无序列表。但是要注意在(*, +, and -)和文字之间需要添加空格
 * A bulletted list
 - alternative syntax 1
 + alternative syntax 2
   - an indented list item
 
+
+使用数字后面跟上句号。（还要有空格）
 1. An
 2. ordered
 3. list
 
 Inline markup styles:
-
+用两个\_夹起来的是斜体
+用两个\*或者两个\\__夹起来的是斜体
+ 
 - _italics_
 - **bold**
 - `code()`
 
+块注释>，多级嵌套是>>
 > Blockquote
 >> Nested Blockquote
 
