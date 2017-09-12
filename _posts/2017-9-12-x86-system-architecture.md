@@ -38,4 +38,4 @@ experience with the legacy x86 or AMD64 microprocessor architecture_
 ## x86计算机模型
 
 
-![an image alt text]({{ site.baseurl }}/images/x86_regs.png "x86 寄存器")
+![x86 寄存器]({{ site.baseurl }}/images/x86_regs.jpg "x86 寄存器")
