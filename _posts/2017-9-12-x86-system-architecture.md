@@ -9,11 +9,11 @@ title: x86 system architecture学习总结
 
 本文主要参考的是amd官方的volume1-5，链接如下
 
-1. [volume1](http://support.amd.com/TechDocs/24592.pdf).
-2. [volume2](http://support.amd.com/TechDocs/24593.pdf).
-3. [volume3](http://support.amd.com/TechDocs/24594.pdf).
-4. [volume4](http://support.amd.com/TechDocs/26568.pdf).
-5. [volume5](http://support.amd.com/TechDocs/26569_APM_v5.pdf).
+1. [AMD64 Architecture Programmer’s Manual Volume 1: Application Programming](http://support.amd.com/TechDocs/24592.pdf).
+2. [AMD64 Architecture Programmer’s Manual Volume 2: System Programming](http://support.amd.com/TechDocs/24593.pdf).
+3. [AMD64 Architecture Programmer’s Manual Volume 3: General Purpose and System Instructions](http://support.amd.com/TechDocs/24594.pdf).
+4. [AMD64 Architecture Programmer’s Manual Volume 4: 128-bit and 256 bit media instructions](http://support.amd.com/TechDocs/26568.pdf).
+5. [AMD64 Architecture Programmer’s Manual Volume 5: 64-Bit Media and x87 Floating-Point Instructions](http://support.amd.com/TechDocs/26569_APM_v5.pdf).
 
 斜体是对文档volume1-5的引用.
 _This volume is intended for programmers writing application programs, compilers, or assemblers. It assumes prior experience in microprocessor programming, although it does not assume prior
