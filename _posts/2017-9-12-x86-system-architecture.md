@@ -37,10 +37,36 @@ experience with the legacy x86 or AMD64 microprocessor architecture_
 
 ## x86计算机模型
 
+### x86 寄存器
+下图展示了x86 64 内部所有的regs
 
 ![x86 寄存器]({{ site.baseurl }}/images/x86_regs.png "x86 寄存器")
 
-上图展示了x86 64 内部所有的regs
+下图展示了x86\_64 主要的工作模式
+
+![x86 工作模式]({{ site.baseurl }}/images/x86_modes.png "x86 模式")
+
+下图展示了x86\_64 不同模式和regs的对应关系
+
+![x86 在不同mode下寄存器情况 ]({{ site.baseurl }}/images/regs_by_mode.png "不同模式下寄存器")
+
+### x86 指令集
+
+1. General Instruction
+2. SSE
+3. MMX& 3d Now!
+4. x87
+
+需要你回头仔细区分的是 sse同 mmx的区别. 他们本质就是SIMD
+
+### 多媒体 指令集
+  核心需要知道多数据并行处理就好.
+
+### 浮点指令
+  需要知道的核心是 浮点指令可以在非FPR0-7执行，SSE/MMX都支持浮点运算.
+相对特别的是MMX终不悔报告浮点中断处理, SSE是有中断处理的.
+
+
 
 ----
 ****
