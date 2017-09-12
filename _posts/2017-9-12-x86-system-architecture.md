@@ -39,3 +39,8 @@ experience with the legacy x86 or AMD64 microprocessor architecture_
 
 
 ![x86 寄存器]({{ site.baseurl }}/images/x86_regs.png "x86 寄存器")
+
+上图展示了x86 64 内部所有的regs
+
+----
+****
