@@ -1,6 +1,6 @@
 ---
 layout: post
-title: x86 system architecture学习总结
+title: x86 system architecture学习总结 1 introduction
 ---
 
   本片系列博客用来记录自己对x86体系结构的学习总结，同时方便大家查阅，节省大家学习的时间。
@@ -34,4 +34,6 @@ title: x86 system architecture学习总结
 
   _This volume is intended for programmers writing application programs, compilers, or assemblers. It assumes prior experience in microprocessor programming, although it does not assume prior
 experience with the legacy x86 or AMD64 microprocessor architecture_
+
+## x86计算机模型
 
