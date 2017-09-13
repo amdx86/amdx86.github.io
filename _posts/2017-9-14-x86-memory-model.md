@@ -8,6 +8,10 @@ title: x86 系统结构 3 x86 memory model
 
 ### virtual memory
 
+  virtual memory的核心是给软件编程人员提供一个连续的地址空间.
+
+![x86 memory segmentation]({{ site.baseurl }}/images/virtual_mem_segmentation.png "x86 memory segmentation")
+
 
 
 
