@@ -1,6 +1,6 @@
 ---
 layout: post
-title: x86 system architecture学习总结 1 introduction
+title: x86 系统结构 1 简介
 ---
 
   本片系列博客用来记录自己对x86体系结构的学习总结，同时方便大家查阅，节省大家学习的时间。
