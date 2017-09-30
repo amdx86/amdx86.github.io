@@ -35,5 +35,7 @@ title: x86 system programming 1
   2. Legacy Protected Mode
   3. Long Mode
 
+### 1.2 Memory Management
+
 ----
 ****
