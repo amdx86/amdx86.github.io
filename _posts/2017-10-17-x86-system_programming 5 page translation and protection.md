@@ -15,7 +15,7 @@ single copy of the library routine is present in physical memory.
   1. legacy is 32 to 32(**legacy has special mode to 36 or 40bits**)
   2. amd64 is 64 to 52
   如下是一个经典的page translation的示意图
-  ![x86 va to pa long mode]({{ site.baseurl }}/images/va_to_pa.jpg "x86 virtual addr to physical addr in long mode")
+  ![x86 va to pa long mode]({{ site.baseurl }}/images/va_to_pa.JPG "x86 virtual addr to physical addr in long mode")
 
 ## 5.2 virtual-8086 Mode segmentation
 
