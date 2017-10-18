@@ -16,6 +16,11 @@ single copy of the library routine is present in physical memory.
   2. amd64 is 64 to 52
   如下是一个经典的page translation的示意图
   ![x86 va to pa long mode]({{ site.baseurl }}/images/va_to_pa_long_mode.jpg "x86 virtual addr to physical addr in long mode")
+  size: 
+  1. 4 Kbytes(long mode)  (legacy mode)
+  2. 2 Mbytes(long mode)  (legacy mode)
+  3. 4 Mbytes             (legacy mode)
+  4. 1 Gbytes(long mode)
 
 ## 5.2 virtual-8086 Mode segmentation
 
