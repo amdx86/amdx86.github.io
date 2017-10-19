@@ -28,5 +28,25 @@ title: x86 system programming 8 Exceptions and Interrupts
     3. Aborts  imprecise exceptions.  do not allow reliable program restart
      不要求restart是什么含义?为何就不需要恢复现场了呢? 
 
+### 8.1.4 Masking External interrupts
+    1. Maskable  trigger the interrupt-handling mechanism only when RFLAGS.IF=1.
+    2. Nonmaskable (NMI), however, the occurrence of an NMI masks further NMIs until an IRET instruction is exectuted.
+    下面看的不是太懂
+    Masking During Stack Switches. The processor delays recognition of maskable external interrupts and debug exceptions during certain instruction sequences that are often used by software to switch stacks. The typical programming sequence used to switch stacks is: 
+        1. Load a stack selector into the SS register.  
+        2. Load a stack offset into the ESP register.  
+    If an interrupting event occurs after the selector is loaded but before the stack offset is loaded, the interrupted-program stack pointer is invalid during execution of the interrupt handler.  To prevent interrupts from causing stack-pointer problems, the processor does not allow external interrupts or debug exceptions to occur until the instruction immediately following the MOV SS or POP SS instruction completes execution.  The recommended method of performing this sequence is to use the LSS instruction. LSS loads both SS and ESP, and the instruction inhibits interrupts until both registers are updated successfully. 
+### 8.1.5 Masking Floating-Point and Media Instructions
+### 8.1.6 Disable exception
+  • Alignment-check exception.
+  • Device-not-available exception
+  • Machine-check exception
+
+## 8.2 Vectors  
+  图表和对应的vector类型如下
+  ![interrupt vector]({{ site.baseurl }}/images/interrupt_vector_source_and_cause.jpg "interrupt vector source and cause")
+  ![interrupt classification]({{ site.baseurl }}/images/interrupt_classification.jpg "interrupt classification")
+  
+
 ----
 ****
