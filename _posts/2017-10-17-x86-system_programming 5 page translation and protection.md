@@ -21,6 +21,14 @@ single copy of the library routine is present in physical memory.
   2. 2 Mbytes(long mode)  (legacy mode)
   3. 4 Mbytes             (legacy mode)
   4. 1 Gbytes(long mode)
+  **Currently the AMD64 architecture defines a mechanism for translating 48-bit virtual addresses to 52-bit physical addresses.**
+### 5.1.1 Page-Translation Options
+  1. Page-Translation Enable(CR0.PG)
+  2. Physical-Addr extensions(CR4.PAE)
+  3. Page-Size Extensions(CR4.PSE)
+  4. Long-Mode active
+     page options 和模式交叉的关系如下表格
+  ![page options with mode]({{ site.baseurl }}/images/page_options_with_mode.jpg "x86 virtual addr to physical addr in long mode")
 
 ## 5.2 virtual-8086 Mode segmentation
 
