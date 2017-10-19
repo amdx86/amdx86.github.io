@@ -13,13 +13,14 @@ title: x86 system programming 8 Exceptions and Interrupts
   _masking_ can refer to either disabling or delaying an interrupt.
 
 ## 8.1 General Characteristics  
+
 ### 8.1.1 Precision  
     1. precise 这个就是说可以保存现场并且回来. 有instruction boundary的概念
     2. Imprecise 这个是无法restartable的.
        没有完全理解啊。。。
 ### 8.1.2 Instruction Restart
     1. before the instruction causing the exception.  
-    1. after the instruction causing the exception.  
+    2. after the instruction causing the exception.  
     下面这段没有看懂啊。。。头痛
     Program state can be updated when the reported boundary is after the instruction causing the exception. This is particularly true when the event occurs as a result of a task switch. In this case, the general registers, segment-selector registers, page-base address register, and LDTR are all updated by the hardware task-switch mechanism. The event handler cannot rely on the state of those registers when it begins execution and must be careful in validating the state of the segmentselector registers before restarting the interrupted task. This is not an issue in long mode, however, because the hardware task-switch mechanism is disabled in long mode. 
 ### 8.1.3 Types of Exceptions
@@ -27,7 +28,6 @@ title: x86 system programming 8 Exceptions and Interrupts
     2. Traps   rIP -> the instruction following the faulting instruction
     3. Aborts  imprecise exceptions.  do not allow reliable program restart
      不要求restart是什么含义?为何就不需要恢复现场了呢? 
-
 ### 8.1.4 Masking External interrupts
     1. Maskable  trigger the interrupt-handling mechanism only when RFLAGS.IF=1.
     2. Nonmaskable (NMI), however, the occurrence of an NMI masks further NMIs until an IRET instruction is exectuted.
