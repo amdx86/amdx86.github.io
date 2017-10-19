@@ -27,5 +27,6 @@ title: x86 system programming 8 Exceptions and Interrupts
     2. Traps   rIP -> the instruction following the faulting instruction
     3. Aborts  imprecise exceptions.  do not allow reliable program restart
      不要求restart是什么含义?为何就不需要恢复现场了呢? 
+
 ----
 ****
